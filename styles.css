@@ -1,0 +1,57 @@
+body {
+    background-color: beige;
+}
+p {
+    font-size: x-large;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    border: 2px solid black;
+    width: 40%;
+    justify-content: center;
+}
+
+.Error {
+    color: red;
+}
+
+.Variable {
+    color: purple;
+}
+
+.Asignacion {
+    color: royalblue;
+}
+
+.Entero,
+.Real {
+    color: chocolate;
+}
+
+.Suma,
+.Resta,
+.Multiplicacion,
+.Division,
+.Potencia {
+    color: darkblue;
+}
+
+.Parentesis-inicial,
+.Parentesis-final {
+    color: black;
+}
+
+.Comentario {
+    color: green;
+}
